@@ -52,7 +52,7 @@ See, this is when we start seeing relationships form. This is great. You can ima
 
 > Note: Use the author/book/category example tables you've drawn to demonstrate creating relationships by making an ERD on the whiteboard; you should use crow's foot notation, making a point to demonstrate it on the board with our existing table drawings
 
-> ![crows foot notation cheat sheet](http://www.vivekmchawla.com/content/images/2013/Dec/ERD_Relationship_Symbols_Quick_Reference-1.png)
+> ![crows foot notation cheat sheet](https://www.vivekmchawla.com/content/images/2013/Dec/ERD_Relationship_Symbols_Quick_Reference-1.png)
 
 Relationships happen when we start seeing multiple duplicative information or when one object needs to "connect" to another object.
 
