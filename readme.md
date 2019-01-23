@@ -61,26 +61,6 @@ There are 3 different kinds:
 
 Keep in mind, the `belongs_to` part always goes on the opposite side of the `has_many` or `has_one`. And the way it's stored is that the ID of the model that "has" something is stored in a field on the child, like "university_id".  In our example with university and classes, the class model `belongs_to` the university model, while the university `has_many` classes.
 
-### Cheesy SQL Refactor (We do)
-
-In the [cheesy SQL exercise](https://git.generalassemb.ly/wdi-nyc-lambda/cheesy-sql-exercise), we made a `cheese` table with properties **name**, **color**, **origin**, and **stink_level**.
-
-#### Adding a table
-
-Our cheeses have some repetition in the **origin** property.
-
-- What would it look like to create a `region` table that was seperate from the `cheese` table?
-- Which table references which?
-- What kind of relationship is this?
-- Why might we prefer this structure?
-
-#### Multi-origin
-
-This is better but we are still limited to a cheese being produced in only a single region.
-
-- Can we go a step farther and structure our tables in a way that a single cheese can have more than one origin?
-- What do we need to add/change to fascilitate this?
-- What is the relationship between cheeses and regions after this update?
 
 ### Social Media Platform ERD
 
@@ -103,11 +83,6 @@ We won't worry about migrations in this unit -- it is easier for us to just rewr
 
 - A student `has_many` classes and a class `has_many` students.
 - A class `belongs_to` an instructor and an instructor `has_many` classes.
-
-### Cheeses and Regions
-
-- A cheese `has_many` regions and a region `has_many` cheeses
-- NOTE: we have terms `origin` and `region`, aliasing can make things tidier
 
 ### Social Media Platfrom
 
