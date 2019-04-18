@@ -35,7 +35,7 @@ competencies: Databases
 
 > ![crows foot notation cheat sheet](https://www.vivekmchawla.com/content/images/2013/Dec/ERD_Relationship_Symbols_Quick_Reference-1.png)
 
-Benefits of relationships:
+### Benefits of relationships
     - data lives (and is updated) in just one place
     - data from one relation can be shared with any other relation (via primary key/foreign key relationship)
 
