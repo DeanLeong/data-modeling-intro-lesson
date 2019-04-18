@@ -3,8 +3,12 @@ title: Intro to Relational Data Modeling
 type: lesson
 duration: "1:25"
 creator:
+    name: Derick Gross
+    city: NY
+original lesson:
     name: Micah Rich
     city: LA
+
 competencies: Databases
 ---
 
