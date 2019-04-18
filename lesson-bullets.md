@@ -41,7 +41,7 @@ competencies: Databases
 
 ## Three kinds of relationships:
 - One to One:
-    - uncommon.  Anj additional field/attribute in one table often makes more sense
+    - uncommon.  An additional field/attribute in one table often makes more sense
 - One to Many:
     - most commmon
     - has_many (belongs_to) (Customer, Order)
