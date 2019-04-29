@@ -12,13 +12,13 @@ competencies: Databases
 
 ## Objectives
 
-- Describe the relationship between tables, rows and columns
 - Draw entity relationship diagrams with crow's foot notation for ideas for web apps
 - Describe how tables relate to each other using foreign keys
 - Explain the different relationship types – has_many_through, has_and_belongs_to_many, belongs_to
 
 ## Preparation
 
+- Understand the relationship between tables, rows and columns
 - Describe how objects have attributes and functionality associated with them
 
 ## Review: What is a Relational Database
