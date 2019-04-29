@@ -86,4 +86,4 @@ Build out your ERD
 - What are the three types of relationships we have discussed today, and what are some examples of how you would you use them?
 
 ## Additional Resources
-- Social media friendship/relationship(https://www.codedodle.com/2014/12/social-network-friends-database.html)
+- [Social media friendship/relationship](https://www.codedodle.com/2014/12/social-network-friends-database.html)
