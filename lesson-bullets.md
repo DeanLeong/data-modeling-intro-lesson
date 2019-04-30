@@ -18,7 +18,7 @@ competencies: Databases
 
 - Draw entity relationship diagrams with crow's foot notation for ideas for web apps
 - Describe how tables relate to each other using foreign keys
-- Explain the different relationship types – has_many_through, has_and_belongs_to_many, belongs_to
+- Explain the different relationship types
 
 ## Preparation
 
