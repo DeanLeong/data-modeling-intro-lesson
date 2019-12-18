@@ -1,17 +1,7 @@
-# For all info and  up-to-date list of accepted values, see https://git.generalassemb.ly/sei-nyc/start-here/blob/master/info_schema.md: 
+unit: 3
 
-# Required fields: unit, section and type
+section: sql
 
-unit: (unit here)
+type: exercise 
 
-section: (section here)
-
-type: (type here)
-
-
-# optional fields:
-  # notes
-  # prereqs
-  # orderingID
-  # ...and maybe more! https://git.generalassemb.ly/sei-nyc/start-here/blob/master/info_schema.md:
-  
+orderingId: 100
