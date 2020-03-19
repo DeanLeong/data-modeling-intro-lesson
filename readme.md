@@ -26,9 +26,17 @@ When describing data with JavaScript objects, we can "nest" resources (e.g. A `c
 
 Relational databases impose some restrictions where we do not (though PostgreSQL does permit it) nest data. Instead we associate records using `primary` and `foreign` keys. This can be approach can feel counter intuitive at first but will become more natural with practice.
 
-Consider the following Entity Relationship Diagram (ERD) for a school (especially consider the relationships between `class`, `student`, and `instructor`)
-
 ## Entity Relationship Diagrams (ERDs)
+
+Let's first take a look at an example of a "one-to-many" relation in an ERD:
+
+![one to many ERD](./one-to-many.jpg)
+*<small>ERD made with [draw.io](draw.io)</small>*
+
+If we take a took here, this ERD is saying that one user has many posts (marked with the three line fork or "crow's feet"). Also we could say a single post only belongs to a single user (marked with the perpendicular line). To help visualize how to mark the ERD, we can take one item from a table and ask our selves "what is this items relationship to resources from the other table".  
+
+Now let's consider a more complicated Entity Relationship Diagram (ERD) for a school (especially consider the relationships between `class`, `student`, and `instructor`)
+
 
 > ![crows foot notation cheat sheet](https://www.vivekmchawla.com/content/images/2013/Dec/ERD_Relationship_Symbols_Quick_Reference-1.png)
 
@@ -54,7 +62,6 @@ There are 3 different kinds:
 
 Keep in mind, the `belongs_to` part always goes on the opposite side of the `has_many` or `has_one`. And the way it's stored is that the ID of the model that "has" something is stored in a field on the child, like "university_id".  In our example with university and classes, the class model `belongs_to` the university model, while the university `has_many` classes.
 
-
 ### Social Media Platform ERD
 
 Working with a partner and working on a whiteboard, draw the ERD for a social media platform
@@ -64,18 +71,6 @@ Working with a partner and working on a whiteboard, draw the ERD for a social me
 - Silver: Friends
 - Gold: Sub-comments
 
-## ERD to Schema
-
-The next step after we are confident with our ERD is to write a schema based off of that ERD which will define our database tables.
-
-Keep in mind that we learn more about our application and the demands of our application change over time. The schema is not set in stone forever but "migrating" a database that is in use can be both tricky and high stakes so it is important that we have thought hard about our schema design.
-
-We won't worry about migrations in this unit -- it is easier for us to just rewrite our schema and dump our data since we are not working on live apps. At work however, the production database will hold data that is extremely valuable to your company. It will be important to make sure that data is not lost if the structure of the database changes and that changes don't cause interuptions to data collection. We will look at tools that make migrations much easier to manage in the final unit.
-
-### Students, Classes, Instructors
-
-- A student `has_many` classes and a class `has_many` students.
-- A class `belongs_to` an instructor and an instructor `has_many` classes.
 
 ### Social Media Platfrom
 
