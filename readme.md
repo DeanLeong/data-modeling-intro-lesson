@@ -62,19 +62,15 @@ There are 3 different kinds:
 
 Keep in mind, the `belongs_to` part always goes on the opposite side of the `has_many` or `has_one`. And the way it's stored is that the ID of the model that "has" something is stored in a field on the child, like "university_id".  In our example with university and classes, the class model `belongs_to` the university model, while the university `has_many` classes.
 
-### Social Media Platform ERD
+### Social Media Platform ERD (You Do)
 
-Working with a partner and working on a whiteboard, draw the ERD for a social media platform
+Working with a partner and working on [draw.io](draw.io), draw the ERD for a social media platform
 
 - MVP: Posts, Comments, Users
 - Bronze: Favorites/Likes
 - Silver: Friends
 - Gold: Sub-comments
 
-
-### Social Media Platfrom
-
-Build out your ERD
 
 ## Conclusion (5 mins)
 
