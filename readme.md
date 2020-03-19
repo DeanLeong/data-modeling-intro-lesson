@@ -31,6 +31,7 @@ Relational databases impose some restrictions where we do not (though PostgreSQL
 Let's first take a look at an example of a "one-to-many" relation in an ERD:
 
 ![one to many ERD](./one-to-many.jpg)
+
 *<small>ERD made with [draw.io](http://draw.io)</small>*
 
 If we take a took here, this ERD is saying that one user has many posts (marked with the three line fork or "crow's feet"). Also we could say a single post only belongs to a single user (marked with the perpendicular line). To help visualize how to mark the ERD, we can take one item from a table and ask our selves "what is this items relationship to resources from the other table".  
