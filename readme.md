@@ -36,6 +36,8 @@ Let's first take a look at an example of a "one-to-many" relation in an ERD:
 
 If we take a took here, this ERD is saying that one user has many posts (marked with the three line fork or "crow's feet"). Also we could say a single post only belongs to a single user (marked with the perpendicular line). To help visualize how to mark the ERD, we can take one item from a table and ask our selves "what is this items relationship to resources from the other table".  
 
+> What would a many-to-many relationship look like? Which table has the FRKs?
+
 Now let's consider a more complicated Entity Relationship Diagram (ERD) for a school (especially consider the relationships between `class`, `student`, and `instructor`)
 
 
